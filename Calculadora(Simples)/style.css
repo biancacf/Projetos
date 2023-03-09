@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fundo{
+    background-image: linear-gradient(45deg, rgba(125, 66, 192, 0.986), rgba(63, 100, 182, 0.966));
+    height: 100vh;
+    color: rgba(187, 176, 248, 0.959);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    padding: 15px;
+    
+  }
+
+  /* Display - Resultado */
+  #resultado{
+    width: 213px;
+    background-color: rgb(167, 165, 165);
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 2px;    
+  }
+
+  p {
+    max-width: 17ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Botão - Números */
+  .btnn{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+  }
+  
+  .btnn:hover{
+    background-color: black;
+  }
+
+/* Botão - Igual  */
+.btni{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(95, 46, 173);
+    border: none;
+    color: white;
+  }
+  
+  .btni:hover{
+    background-color: rgb(97, 2, 250);;
+  }
+  
+/* Botao - Operadores */
+.btno{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(61, 59, 59);
+    border: none;
+    color: white;
+  }
+  
+  .btno:hover{
+    background-color: black;
+  }
+
+
+/* Botao - Apagar tudo: C */
+  .btnc{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(187, 61, 61);
+    border: none;
+    color: white;
+  }
+  
+  .btnc:hover{
+    background-color: rgb(252, 7, 7);
+  }
+
+  /* Botao - Apagar : < */
+  .btnb{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgba(189, 112, 24, 0.808);
+    border: none;
+    color: white;
+  }
+  
+  .btnb:hover{
+    background-color: rgb(253, 122, 0);
+  }
