@@ -1,3 +1,4 @@
 # Projetos
-# Calculadora simples - Desenvolvida com JavaScript
+# Calculadora simples - Desenvolvido com JavaScript
+
 # Por Bianca Camargo
