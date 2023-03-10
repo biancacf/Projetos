@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .fundo{
+    background-image: linear-gradient(45deg, rgba(82, 189, 117, 0.986), rgba(55, 58, 228, 0.966));
+    height: 100vh;
+    text-align: center;
+  }
+
+  .cronometro{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.349);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;   
+  }
+
+  .display{
+    background-color: rgba(5, 5, 5, 0.815);   
+    margin: 10px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgba(12, 201, 12, 0.959);
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: rgb(206, 230, 190);
+  }
+  
+  .button:hover{
+    background-color: rgba(10, 204, 36, 0.856);
+    color: rgb(12, 12, 11);
+  }
